@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GIThubUser</title>
+    <script src="script/index.js" defer></script>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body class="body">
+    <form>
+        <label for="getUserNameInput">Имя пользователя GitHub:</label>
+        <input type="text" id="getUserNameInput" name="getUserNameInput" required>
+        <button type="submit" id="getInfoBtn">Получить информацию</button>
+    </form>
+
+    <h2>Информация о пользователе</h2>
+
+    <img src="/img/bg.png" alt="Аватар пользователя" id="avatar" width="150px">
+    <p>Количество репозиториев: <span id="repos"></span></p>
+    <p>Количество фоловеров: <span id="followers"></span></p>
+    <p>Количество наблюдаемых: <span id="following"></span></p>
+
+    <p id="error-message"></p>
+
+    
+</body>
+
+
+
+</html>
